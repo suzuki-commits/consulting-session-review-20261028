@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      定例ミーティング振り返り｜2026年10月28日 保育園A様
+    </title>
+    <style>
+      :root {
+        --blue: #0068b6;
+        --blue-dark: #004e8a;
+        --accent: #fb4113;
+        --ink: #221714;
+        --sub: #4a4340;
+        --line: #d9d5d2;
+        --bg: #ffffff;
+        --soft: #f4f7fa;
+        --soft2: #fff3ef;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family:
+          "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo,
+          sans-serif;
+        font-size: 17px;
+        line-height: 1.85;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      .wrap {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 22px 80px;
+      }
+      header.hero {
+        background: linear-gradient(135deg, var(--blue-dark), var(--blue));
+        color: #fff;
+        padding: 44px 0 38px;
+        margin-bottom: 38px;
+      }
+      header.hero .wrap {
+        padding-bottom: 0;
+      }
+      .eyebrow {
+        font-size: 17px;
+        letter-spacing: 0.08em;
+        opacity: 0.92;
+        margin: 0 0 10px;
+      }
+      h1 {
+        font-size: 34px;
+        line-height: 1.4;
+        margin: 0 0 16px;
+        font-weight: 700;
+      }
+      .meta {
+        font-size: 17px;
+        opacity: 0.95;
+        margin: 0;
+      }
+      h2 {
+        font-size: 27px;
+        line-height: 1.45;
+        margin: 54px 0 18px;
+        padding-left: 14px;
+        border-left: 7px solid var(--blue);
+        font-weight: 700;
+      }
+      h3 {
+        font-size: 22px;
+        margin: 30px 0 10px;
+        font-weight: 700;
+      }
+      p {
+        margin: 0 0 16px;
+      }
+      .lead {
+        font-size: 18px;
+        background: var(--soft);
+        border-radius: 10px;
+        padding: 22px 24px;
+        margin-bottom: 8px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 18px 0 24px;
+        font-size: 17px;
+      }
+      th,
+      td {
+        border: 1px solid var(--line);
+        padding: 12px 14px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: var(--soft);
+        font-weight: 700;
+      }
+      td.num,
+      th.num {
+        text-align: right;
+        white-space: nowrap;
+      }
+      .tablewrap {
+        overflow-x: auto;
+      }
+      .card {
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        padding: 26px 26px 10px;
+        margin: 24px 0;
+      }
+      .card.top {
+        border-color: var(--accent);
+      }
+      .badge {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        font-weight: 700;
+        padding: 6px 16px;
+        border-radius: 999px;
+        font-size: 17px;
+        margin-bottom: 14px;
+      }
+      blockquote {
+        margin: 16px 0;
+        padding: 14px 18px;
+        background: var(--soft);
+        border-left: 5px solid var(--blue);
+        border-radius: 0 8px 8px 0;
+        font-size: 17px;
+      }
+      blockquote.hot {
+        background: var(--soft2);
+        border-left-color: var(--accent);
+      }
+      blockquote .who {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      blockquote .who + .who,
+      blockquote br + .who {
+        margin-top: 8px;
+      }
+      .aside {
+        display: block;
+        margin-top: 6px;
+        font-size: 16px;
+        color: var(--sub);
+      }
+      .do {
+        background: #eaf4fc;
+        border: 2px solid var(--blue);
+        border-radius: 10px;
+        padding: 20px 22px;
+        margin: 18px 0 24px;
+      }
+      .do h4 {
+        margin: 0 0 10px;
+        font-size: 20px;
+        color: var(--blue-dark);
+      }
+      .do ul {
+        margin: 0;
+        padding-left: 1.3em;
+      }
+      .do li {
+        margin-bottom: 10px;
+      }
+      ul,
+      ol {
+        margin: 0 0 18px;
+        padding-left: 1.4em;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      .good {
+        color: #0b7a3e;
+        font-weight: 700;
+      }
+      .bad {
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .note {
+        font-size: 17px;
+        color: var(--sub);
+        background: var(--soft);
+        padding: 20px 22px;
+        border-radius: 10px;
+      }
+      .kpi {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin: 22px 0 6px;
+      }
+      .kpi div {
+        flex: 1 1 200px;
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        padding: 18px 20px;
+      }
+      .kpi .v {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--blue);
+        line-height: 1.3;
+        display: block;
+      }
+      .kpi .v.warn {
+        color: var(--accent);
+      }
+      .kpi .k {
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 4px;
+        display: block;
+      }
+      .kpi .s {
+        font-size: 16px;
+        color: var(--sub);
+      }
+      footer {
+        border-top: 2px solid var(--line);
+        margin-top: 60px;
+        padding-top: 22px;
+        font-size: 16px;
+        color: var(--sub);
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 27px;
+        }
+        h2 {
+          font-size: 23px;
+        }
+        .kpi .v {
+          font-size: 26px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <p class="eyebrow">定例ミーティング振り返り（実測ベース）</p>
+        <h1>10月28日 保育園A様 定例の分析と<br />最重要改善3点</h1>
+        <p class="meta">
+          宛先: Hideaki Suzuki さん／対象:
+          2026年10月28日の定例（録画62分・会話57.6分）<br />
+          比較対象: 鈴木章裕の確定受注商談（初回）13本（計482分）／作成日:
+          2026年10月28日
+        </p>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <p class="lead">
+        この回の最後に、先方から「今回最後みたいな形で」「コストもまあちょっと高めかな」と、契約終了のお申し出がありました。
+        ただ、先方は同じ場面で「理事長とも話しはした」と話しています。<strong
+          >終了は、この回より前に決まっていました。</strong
+        >
+        ですから見直すべきは、最後の80秒の切り返しだけではありません。毎回の定例で「この支援にお金を払う理由」が先方に見えていたかどうかです。<br />
+        受注が決まった鈴木章裕の商談13本と同じ物差しで数えると、<strong>質問の数も、聞く姿勢も、ほぼ同じ水準</strong>でした。
+        はっきり違ったのは、<strong>締めでその場で次の段取りを引き取るかどうか</strong>（鈴木章裕
+        13本中12本／本定例
+        なし）と、<strong>先方の目標を数字に置き換えるかどうか</strong>です。以下、すべて録画の文字起こしからの実測値と発言引用で示します。
+      </p>
+
+      <h2>まず全体像（実測サマリー）</h2>
+
+      <div class="kpi">
+        <div>
+          <span class="k">その場で引き取った次の段取り</span>
+          <span class="v warn">0件</span>
+          <span class="s"
+            >鈴木章裕の受注商談は13本中12本で、締めの数分のうちに引き取っている</span
+          >
+        </div>
+        <div>
+          <span class="k">「いいですね」等の肯定</span>
+          <span class="v warn">10分あたり4.7回</span>
+          <span class="s"
+            >鈴木章裕の受注商談は2.6回。提案の代わりに肯定が入っている</span
+          >
+        </div>
+        <div>
+          <span class="k">採用目標を数字に逆算</span>
+          <span class="v warn">0回</span>
+          <span class="s"
+            >「最低一人」は3回出たが、応募・見学・受験の数字は出ていない</span
+          >
+        </div>
+        <div>
+          <span class="k">終了の申し出への応答</span>
+          <span class="v warn">33秒で了承</span>
+          <span class="s"
+            >1:00:39 の申し出から 1:01:12「わかりました」まで、質問は0</span
+          >
+        </div>
+      </div>
+
+      <div class="tablewrap">
+        <table>
+          <tr>
+            <th>指標</th>
+            <th class="num">本定例<br />Hideaki さん</th>
+            <th class="num">鈴木章裕の受注商談<br />13本平均</th>
+            <th>読み方</th>
+          </tr>
+          <tr>
+            <td>会話時間</td>
+            <td class="num">57.6分</td>
+            <td class="num">37.1分</td>
+            <td>本定例は録画開始から4分22秒の待機あり</td>
+          </tr>
+          <tr>
+            <td>自分の発話比率</td>
+            <td class="num">28.4%</td>
+            <td class="num">74.1%</td>
+            <td>
+              会議の種類が違うため<strong>目標値にはしない</strong>（定例は先方の報告が多くて自然）
+            </td>
+          </tr>
+          <tr>
+            <td>質問の数（10分あたり）</td>
+            <td class="num">7.6</td>
+            <td class="num">7.7</td>
+            <td><span class="good">同水準。</span>違いは数ではなく中身</td>
+          </tr>
+          <tr>
+            <td>最長の連続発話</td>
+            <td class="num">165字</td>
+            <td class="num">496字</td>
+            <td><span class="good">長く話しすぎる問題はない</span></td>
+          </tr>
+          <tr>
+            <td>肯定（10分あたり）</td>
+            <td class="num bad">4.7回</td>
+            <td class="num">2.6回</td>
+            <td>
+              約1.8倍。「いいですね」「よかった」で相談を受け止めて終わっている
+            </td>
+          </tr>
+          <tr>
+            <td>締めでその場で引き取った次の段取り</td>
+            <td class="num bad">なし</td>
+            <td class="num">13本中12本</td>
+            <td>本定例は「引き続き応援しております」で終了</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>最重要改善 3点</h2>
+
+      <div class="card top">
+        <span class="badge">改善 1</span>
+        <h3>相談が出たら、その場で「私が〇〇を△日までに」と段取りを引き取る</h3>
+
+        <p>
+          受注商談との最大の差はここです。本定例で Hideaki
+          さんが出した具体的な助言は4件ありました。
+          内容はどれも的確ですが、<strong>すべて1文で終わり、誰がいつまでに何をするかまで進んでいません</strong>。
+        </p>
+        <div class="tablewrap">
+          <table>
+            <tr>
+              <th>時刻</th>
+              <th>Hideaki さんの助言</th>
+              <th>先方の反応</th>
+            </tr>
+            <tr>
+              <td>15:49</td>
+              <td>「ディーエムはやっぱりちょっと週一せい。せめて週一回。」</td>
+              <td>
+                「私そういう機能あるなんて。問い合わせるまで知らなかったので」<span
+                  class="good"
+                  >（効いている）</span
+                >
+              </td>
+            </tr>
+            <tr>
+              <td>45:49</td>
+              <td>
+                （大学に）「更新されてもいいんじゃないですか？まだやりたいとか保育士呼んでくださいと。」
+              </td>
+              <td>「持ってくると結構大変なんですよね」</td>
+            </tr>
+            <tr>
+              <td>52:39</td>
+              <td>（3回目の試験は）「多分日を決めた方がいいと思いれば。」</td>
+              <td>「ですよね。」<span class="good">（効いている）</span></td>
+            </tr>
+            <tr>
+              <td>55:00</td>
+              <td>「あのホームページでいいと思います。御社は」</td>
+              <td>（ハローワークの営業電話の話へ）</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>
+          逆に、<strong>先方から相談が出たのに、案を出さずに先方へ返した場面</strong>が3回あります。
+        </p>
+        <blockquote>
+          <span class="who">① 大学との接点（24:02〜29:31）</span>
+          先方「大学の方に連絡取ったりした方がいいのかな？とか（中略）難しいところだな」<br />
+          → Hideaki
+          さん「やっているところで、なんか例があるんですか？」（25:28）<br />
+          → 先方が研究協力・講義・現役保育士の派遣の3案を自分で挙げる<br />
+          → Hideaki
+          さん「当園としてはなんかできそうなものってあるんですか？」（28:10）「是非是非それは無理がなければ」（29:28）<br />
+          → 先方「かといっても声かかるわけでもなし」（29:31）
+          <span class="aside">→ 案を出したのは先方。決まった行動は0件</span>
+        </blockquote>
+        <blockquote>
+          <span class="who">② 打ち手の相談（44:21〜44:30）</span>
+          Hideaki
+          さん「なんかそのへんもなんかもったいないっすね。（中略）なんかないですかね？」
+          <span class="aside"
+            >→
+            コンサル側から先方に案を求めている。先方は職員の年齢構成の話へ移る</span
+          >
+        </blockquote>
+        <blockquote>
+          <span class="who"
+            >③ 社会人・潜在保育士向けの採用（53:27〜53:39）</span
+          >
+          先方「学生じゃなくて、もう一人社会人の方に向けての動いた方がいいのかな？とか」<br />
+          → Hideaki さん「そうですね。確かに。」
+          <span class="aside"
+            >→
+            新しい支援テーマを先方が自分から出した場面。次回の提案につなげられた</span
+          >
+        </blockquote>
+
+        <p>
+          Zoom
+          の自動要約が出した「次のステップ」は5件で、<strong>5件すべてが先方の担当</strong>でした（DM確認・採用試験の実施・大学訪問・大学への依頼・発信の継続）。
+          Hideaki
+          さん側の約束は「僕もあのフォローしますんで、ちゃんと今日は」（57:59）の1件だけです。
+          この形が続くと、先方には「話を聞いてもらう場」に見えます。最後の申し出の言葉が、それをそのまま表しています。
+        </p>
+        <blockquote class="hot">
+          <span class="who">先方（1:00:50）</span>
+          「動くべきこと動きたいこと、やり方みたいのは、あの、ある程度（中略）いただいたので、あとはそれをこっちの方でどうやっていくかみたいな話になりまして。」
+          <span class="aside"
+            >→
+            先方は「やり方はもう分かった。あとは自分たちでやれる」と判断している</span
+          >
+        </blockquote>
+
+        <p>
+          鈴木章裕の受注商談は、13本中12本で、締めの数分のうちに次の段取りを<strong>自分から引き取って</strong>います。相手が迷っていても同じです。
+        </p>
+        <blockquote class="hot">
+          <span class="who"
+            >鈴木章裕（2025年11月11日の受注商談・35:48→35:57）</span
+          >
+          相手が「今月はミーティング時間が取りづらい」と迷った直後に<br />
+          「じゃあそれは事務方に依頼してるのは12月からって依頼したいですか？それとも1月からって依頼します。」→
+          「じゃあグループ作って日程だけそのグループ内に入れてくれたら、それをもとに事務方が作ります。」
+          <span class="who"
+            >鈴木章裕（2026年3月26日の受注商談・31:35→31:57）</span
+          >
+          「支払い方が（中略）毎月の払い方と、一年まとめてだったら一ヶ月分安くなる（中略）どっちがいいですか？」→（相手「基本線月ごとで」）→
+          「じゃあちょっとグループ作って事務方に手配依頼しておきます。」
+        </blockquote>
+        <p>
+          この2本に共通するのは、<strong>相手に「やりますか？」と聞かず、「どちらで進めますか？」と2択で聞き、決まった瞬間に自分が手を動かす</strong>ことです。
+        </p>
+
+        <div class="do">
+          <h4>次の定例からの具体動作：相談には「段取り＋担当＋期日」で返す</h4>
+          <ul>
+            <li>
+              <strong>大学との接点</strong>
+              →「打診文の叩き台を金曜までにお送りします。最初は近隣の養成校2校のうち、どちらからにしますか？」
+            </li>
+            <li>
+              <strong>社会人・潜在保育士</strong>
+              →「潜在保育士向けの募集ページの案を、次回お持ちします」
+            </li>
+            <li>
+              <strong>締めの1分</strong
+              >は毎回この形に固定する：「今日決まったことは3つです。私がやるのは〇〇（△日まで）、園にお願いしたいのは〇〇（△日まで）。次回は〇日でよろしいですか？」
+            </li>
+          </ul>
+          <p style="margin: 12px 0 0">
+            「いいですね」は、この1文の<strong>後</strong>に言えば十分です。
+          </p>
+        </div>
+      </div>
+
+      <div class="card top">
+        <span class="badge">改善 2</span>
+        <h3>先方の目標を数字に逆算し、毎回の冒頭をその数字から始める</h3>
+
+        <p>この回は、先方のお詫びと、先方からの議題の提示で始まっています。</p>
+        <blockquote>
+          <span class="who">先方（4:26）</span>
+          「すいません。前回は申し訳ないです。あのちょっと勘違いか。あれか、ちょっとメモが残ってなかったのもあれなんですけど。（中略）えっと、現状の方からお話させて頂いてもいいですかね？」
+          <span class="who">Hideaki さん（4:49）</span>
+          「はい、お願いしま。」
+        </blockquote>
+        <p>
+          前回、先方側で行き違いがあったこと（4:26）は、<strong>先方の中で定例の優先度が下がっていたサインの可能性</strong>があります。ここは「前回の分も今日取り返しましょう。まず前回からの進み具合を私から」と、こちらが主導権を取り戻せる場面でした。
+          そして、続く報告の中に、この回で最も重い事実が入っていました。
+        </p>
+        <blockquote class="hot">
+          <span class="who">先方（4:51〜5:08）</span>
+          「各えん養成校の方にお送りしまして。はい、今のところええとね。まだ申し込みはないんです。（中略）締め切りを今月いっぱいにしてあるんですけれども、今のところまだ来てないような状況です。」
+        </blockquote>
+        <p>
+          11月7日の採用試験は、<strong>締め切りまで残り3日で応募0件</strong>です。
+          これに対する応答は「ありがとうございます」（6:38）、続く質問は「ちなみにこの方はどこの学校の方なんですか？」（6:40）でした。
+          この回で一番重い数字が、報告の一部として流れています。
+        </p>
+        <p>
+          また、「<strong>最低一人</strong>」という採用目標は62分の中で3回出ています（19:16〜19:18／45:14／59:39）。
+          それなのに「1名採るには、試験を何名に受けてもらう必要があり、そのために見学が何件いるか」という逆算は一度も出ていません。
+          質問の数は受注商談と同じ水準（10分あたり7.6問）ですが、中身は学生の学校・学年・履歴書など事実の確認が中心でした。
+          <strong>数字が無いと、支援の成果も測れません。</strong
+          >測れない支援は、価格を「高め」と言われたときに反論できません。
+        </p>
+        <p>
+          鈴木章裕の受注商談には、相手から聞いた数字を、その場で「何件で元が取れるか」に置き換える場面があります。
+        </p>
+        <blockquote class="hot">
+          <span class="who"
+            >鈴木章裕（2025年10月8日の受注商談・23:53→24:17）</span
+          >
+          「例えば平均するとその（商品名）のやつ一件売れると粗利どのくらいになるんですか？」→（相手「初期で30月額十から15って感じです」）→
+          「はい。じゃあ何件決めたら360ペーラインですか？」
+          <span class="aside"
+            >→
+            相手の単価を聞き、その場で「何件売れば元が取れるか（ペイライン）」に逆算している</span
+          >
+        </blockquote>
+
+        <div class="do">
+          <h4>次の定例からの具体動作：冒頭3分を「数字」から始める</h4>
+          <ul>
+            <li>
+              <strong>初回に一度だけ逆算表を作る</strong
+              >：「最低1名を採るには、受験者が何名、見学が何件いるか」を先方と一緒に決める
+            </li>
+            <li>
+              <strong>毎回の冒頭で、その表の今の数字を自分から読み上げる</strong
+              >：「前回から、見学が1件、応募が0件です。11月7日まであと〇日です」
+            </li>
+            <li>
+              <strong
+                >続けて「今日はこれを決めて終わりましょう」を宣言する</strong
+              >：今回なら「11月7日の試験に応募を1件でも入れるために、今月中に何をするか」
+            </li>
+          </ul>
+          <p style="margin: 12px 0 0">
+            先方の報告は、この3つの後で聞けば十分です。
+          </p>
+        </div>
+      </div>
+
+      <div class="card top">
+        <span class="badge">改善 3</span>
+        <h3>価格・終了の話には「理由 → 小さく続ける案 → 日付」で返す</h3>
+
+        <p>終了のお申し出から締めの挨拶まで、やり取りは約80秒です。</p>
+        <div class="tablewrap">
+          <table>
+            <tr>
+              <th>時刻</th>
+              <th>発言</th>
+            </tr>
+            <tr>
+              <td>1:00:39</td>
+              <td>
+                先方「はいまあちょっと言いづらいんですが、とりあえず今回最後みたいな形で。」
+              </td>
+            </tr>
+            <tr>
+              <td>1:00:48</td>
+              <td>Hideaki さん「ああ、そうなんですね。」</td>
+            </tr>
+            <tr>
+              <td>1:00:50</td>
+              <td>
+                先方「まあ一応理事長とも話しはしたんですけど（中略）あとはそれをこっちの方でどうやっていくかみたいな話になりまして。」
+              </td>
+            </tr>
+            <tr>
+              <td>1:01:12</td>
+              <td><strong>Hideaki さん「わかりました。」</strong></td>
+            </tr>
+            <tr>
+              <td>1:01:13</td>
+              <td>
+                先方「ちょっともうコストもまあちょっと高めかな？みたいな言われたんで、まあまあかといってがっつりコンサルタント入れると桁が違うけど。」
+              </td>
+            </tr>
+            <tr>
+              <td>1:01:45</td>
+              <td>
+                Hideaki
+                さん「わかりました。はい。（中略）せっかくご縁ができたので。（中略）僕は引き続き応援しておりますので。」
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <p>
+          決まったことを覆すのは難しい場面です。それでも、<strong>この80秒でできたことが3つ</strong>あります。
+        </p>
+        <ul>
+          <li>
+            <strong>理由を一段だけ深く聞く。</strong
+            >先方は「高め」と「がっつり入れると桁が違う」を同時に言っています。つまり<strong>金額そのものより、払った分の中身が見えにくかった</strong>可能性が高い発言です。「どの部分が、払った分に見合わなかったですか？」と聞けば、次に活かせる情報が取れました。
+          </li>
+          <li>
+            <strong>小さく続ける案を出す。</strong
+            >月次の定例をやめても、「試験の前後だけのスポット相談」なら残せた可能性があります。
+          </li>
+          <li>
+            <strong>日付を置く。</strong
+            >先方は11月7日と12月5日の試験日を自分から話しています。「12月5日の試験が終わった週に、30分だけ結果を聞かせてください」は、断る理由のない再接点でした。
+          </li>
+        </ul>
+
+        <p>
+          鈴木章裕の受注商談は、相手が「検討したい」側に傾いても、その場で次の接点を置いています。
+        </p>
+        <blockquote class="hot">
+          <span class="who">鈴木章裕（2025年10月21日の受注商談・43:40）</span>
+          「どうしましょう。もう一回ミーティングでもします。」→
+          相手「あー、もう一回じゃあいただいてもいいですかね？」
+          <span class="who"
+            >鈴木章裕（2026年1月15日の受注商談・46:50→46:53）</span
+          >
+          相手が「タイミングにもよると思ですけれど（中略）またご相談させていただけたらと思いますんで」と保留した直後に<br />
+          「遊びに来てくださいよ。」「今送っちゃっていいですか？」（経営者会食への招待をその場で送る）
+        </blockquote>
+
+        <div class="do">
+          <h4>
+            次の機会からの具体動作：終了・値下げの話が出たら、この順で返す
+          </h4>
+          <ul>
+            <li>
+              <strong
+                >①「ありがとうございます。1つだけ教えてください。何が変わっていれば、続けていましたか？」</strong
+              >
+            </li>
+            <li>
+              <strong
+                >②「では月1の定例はやめて、試験の前後だけスポットでお手伝いする形はどうですか？」</strong
+              >
+            </li>
+            <li>
+              <strong
+                >③「12月5日の試験が終わった週に、30分だけ結果を聞かせてください。〇日と〇日なら、どちらがいいですか？」</strong
+              >（その場でカレンダーに入れる）
+            </li>
+          </ul>
+          <p style="margin: 12px 0 0">
+            本当の勝負は、終了の申し出が出る前です。改善1と2を毎回やっていれば、この場面そのものが来にくくなります。
+          </p>
+        </div>
+      </div>
+
+      <h2>良かった点（続けてほしいこと）</h2>
+      <ul>
+        <li>
+          <span class="good">聞く力と関係性</span
+          >：先方が71.6%を話し、内情（園児数が1割ほど減少・市独自の面積基準・職員の年齢構成）まで率直に共有しています。最後まで「また、なんかあれば」（1:01:51）と言われる関係です。
+        </li>
+        <li>
+          <span class="good">Instagram の活用は成果が出ている</span>：Instagram
+          経由で学生から連絡が来て、アルバイトにつながっています（先方「おかげさまで」15:41）。DMを週1回確認する助言（15:49）も、先方がその機能を知らなかったので効いています。
+        </li>
+        <li>
+          <span class="good">試験日を固定する助言</span
+          >：「随時受付」か「日を決めるか」で迷っていた先方に、日を決める方を勧め（52:39）、先方も「ですよね」と同意しています。
+        </li>
+        <li>
+          <span class="good">話の長さ</span
+          >：最長の連続発話は165字で、一方的に話し続ける場面はありません。
+        </li>
+      </ul>
+      <p>
+        つまり、助言の質に問題があるわけではありません。<strong>助言が「段取り」と「数字」になって先方の手元に残っていなかった</strong>ことが、「やり方はもう分かった」という判断につながっています。
+      </p>
+
+      <h2>鈴木章裕の受注商談との差分（まとめ）</h2>
+      <div class="tablewrap">
+        <table>
+          <tr>
+            <th>場面</th>
+            <th>本定例</th>
+            <th>鈴木章裕の受注商談（13本）</th>
+          </tr>
+          <tr>
+            <td>冒頭</td>
+            <td>
+              先方のお詫び → 先方が「現状から話していいですか」と議題を持つ
+            </td>
+            <td>
+              雑談・共通の知人の話から入る（13本とも）。<strong
+                >ここは大きな差ではない</strong
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>質問</td>
+            <td>数は同水準。学生の学校・学年など事実の確認が中心</td>
+            <td>
+              数は同水準。相手の粗利・人数・件数など商売の数字を聞く（2025年10月8日は粗利からペイラインを逆算）
+            </td>
+          </tr>
+          <tr>
+            <td>相談への返し</td>
+            <td>「いいですね」「是非」で受け止め、案は先方に戻す</td>
+            <td>
+              決まった瞬間に自分が段取りを引き取る（2025年11月11日・2026年3月26日は2択で選ばせてから引き取る）
+            </td>
+          </tr>
+          <tr>
+            <td>迷い・保留への対応</td>
+            <td>「わかりました」で了承</td>
+            <td>
+              「12月からか1月からか」と日付を選ばせる／次の打ち合わせ・招待をその場で置く
+            </td>
+          </tr>
+          <tr>
+            <td>締め</td>
+            <td>「引き続き応援しております」で終了。次の接点なし</td>
+            <td>
+              13本中12本で、グループ作成・事務方への手配・次回の打ち合わせ等をその場で引き取る
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>分析の前提（データの出どころ）</h2>
+      <div class="note">
+        <ul style="margin-bottom: 0">
+          <li>
+            <strong>対象</strong
+            >：Zoomクラウド録画「（園名）様」の自動文字起こし（2026年10月28日
+            13:57開始、録画62分04秒）。会話は録画の4:22〜1:02:00（57.6分）。
+          </li>
+          <li>
+            <strong>比較対象</strong
+            >：鈴木章裕が初回商談から受注に至り、受注が確定している（顧客台帳に受注記録がある）13社の初回商談の
+            Zoom
+            文字起こし（2025年7月〜2026年3月、計482分）。予定の開始時刻と録画の開始時刻が一致し、社名や相手の名前が文字起こしに出てくるものに限定しました。話者の取り違えが疑われる録画（鈴木章裕の比率が85%超）は除いています。2026年4月以降は録画がほとんど残っていないため含まれていません。お客様の社名は伏せ、日付で表記しています。
+          </li>
+          <li>
+            <strong>比較条件の違い（先に申し添えます）</strong
+            >：本定例は契約中のお客様との定例（採用支援）、比較対象は新規の初回商談です。会議の種類が違うため、発話比率などの数値は目標値にしていません。<strong>改善3点は、いずれも本定例の中の事実だけで成り立ちます</strong>（先方に戻した3つの相談、応募0件への応答、終了の申し出への33秒の了承）。鈴木章裕の商談は「型」の参考として添えています。
+          </li>
+          <li>
+            <strong>指標の定義</strong
+            >：発話比率＝話者別の文字数の比（同じ話者の連続発話は1区間にまとめる）。質問の数＝発話中の「？」の数。肯定＝「いいですね／いいっすね／いいと思／よかった／いいじゃない／すごい」の出現数。「次の段取りを引き取った」＝会話の最後の数分で、鈴木章裕が次の行動（グループ作成・事務方への手配・次回の打ち合わせ・会への招待）を自分の担当として口にしたもの。本定例と比較対象は同じ計算式で数えています。
+          </li>
+          <li>
+            <strong>時刻の読み方</strong
+            >：本文の時刻はすべて録画の経過時間です。そのまま録画をシークすれば該当箇所を確認できます。
+          </li>
+          <li>
+            <strong>「次のステップ」</strong>：Zoom の AI
+            要約が自動生成したものです。本文と照らし合わせ、内容が文字起こしと一致することを確認しています。
+          </li>
+          <li>
+            <strong>注意</strong
+            >：自動文字起こしのため誤変換があります（例：「園」が「縁」「円」、「面積」が「免責」）。引用は原文のまま（言いよどみのみ一部省略）で、趣旨に影響する箇所はありません。
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        株式会社コミクス｜定例ミーティング振り返り（関係者限定）｜2026年10月28日作成<br />
+        本レポートは Hideaki Suzuki
+        さん向けの改善用資料です。取引先名・発言引用を含むため、関係者以外への共有はご遠慮ください。
+      </footer>
+    </div>
+  </body>
+</html>
